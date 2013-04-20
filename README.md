@@ -16,6 +16,7 @@ Tested with the following configuration:
 * JRuby 1.7.2
 * RubyGems 1.8.23 (included with JRuby 1.7.2)
 * Bundler versions 1.2.3 and 1.3.5
+* Warbler 1.3.6 and master (at cfb3cae)
 
 Results in the following error (note: including a git-based gem raises a
 LoadError for bundler/index):
