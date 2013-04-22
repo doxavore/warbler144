@@ -5,16 +5,19 @@ Since then, it seems this may be an entirely different issue.
 
 Tested Environments
 -------------------
-Tested with the following configurations:
+Tested and fails with the following configuration:
 * Ubuntu 12.10
  * `uname -a`: Linux bohr 3.5.0-27-generic #46-Ubuntu SMP Mon Mar 25 19:58:17 UTC 2013 x86_64 x86_64 x86_64 GNU/Linux
-  * rbenv 0.4.0-20-ga7da069
+  * rbenv 0.4.0-20-ga7da069 (and no rbenv/rvm-type environment)
   * JRuby 1.7.2 (on Oracle Java 7 and OpenJDK 7)
     * jruby 1.7.2 (1.9.3p327) 2013-01-04 302c706 on OpenJDK 64-Bit Server VM 1.7.0_15-b20 [linux-amd64]
     * jruby 1.7.2 (1.9.3p327) 2013-01-04 302c706 on Java HotSpot(TM) 64-Bit Server VM 1.7.0_21-b11 [linux-amd64]
   * RubyGems 1.8.23 (packaged with JRuby 1.7.2)
   * Bundler 1.2.3 and 1.3.5
   * Warbler 1.3.6 and master (at cfb3cae)
+
+This exact jar (and generating/running a new one) works perfectly on OS X 10.8,
+running under a similar software configuration.
 
 To Reproduce
 ------------
